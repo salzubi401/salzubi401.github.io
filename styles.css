@@ -664,12 +664,39 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .navbar {
+    .menu-btn {
+        display: block;
+    }
+
+    .nav-links {
         display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: var(--primary-color);
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 0.5rem;
     }
 
     .hero {
-        padding-top: 2rem;
+        padding-top: 4rem;
         padding-left: 1rem;
         padding-right: 1rem;
         min-height: auto;
