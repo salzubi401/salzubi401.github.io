@@ -731,8 +731,8 @@ footer {
     }
 
     .profile-image {
-        width: 160px;
-        height: 160px;
+        width: 200px;
+        height: 200px;
     }
 
     .hero-text h1 {
@@ -759,43 +759,6 @@ footer {
         margin: 0 0.8rem;
         font-size: 1.3rem;
     }
-
-    /* Timeline adjustments for mobile */
-    .timeline {
-        padding: 1rem;
-    }
-
-    .timeline::before {
-        left: 0;
-    }
-
-    .timeline-item {
-        width: 100%;
-        margin-left: 2rem;
-        padding-right: 0;
-        padding-left: 0;
-    }
-
-    .timeline-item:nth-child(even) {
-        margin-left: 2rem;
-        padding-left: 0;
-    }
-
-    .timeline-date {
-        position: relative;
-        right: auto;
-        left: auto;
-        display: inline-block;
-        margin-bottom: 0.5rem;
-    }
-
-    .timeline-item:nth-child(even) .timeline-date {
-        left: auto;
-    }
-
-    .timeline-content {
-        padding: 1.5rem;
-    }
 }
 
 /* Touch Device Optimizations */
@@ -814,12 +777,12 @@ footer {
 /* Small Mobile Devices */
 @media (max-width: 480px) {
     .hero {
-        padding-top: 4rem;
+        padding-top: 4.5rem;
     }
 
     .profile-image {
-        width: 130px;
-        height: 130px;
+        width: 180px;
+        height: 180px;
     }
 
     .hero-text h1 {
