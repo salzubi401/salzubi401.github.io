@@ -812,5 +812,5 @@ footer {
 }
 
 .sentient-logo-scaled {
-    transform: scale(0.8);  /* Adjust this value between 0 and 1 to control zoom level */
+    transform: scale(0.7);  /* Adjust this value between 0 and 1 to control zoom level */
 } 
