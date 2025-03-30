@@ -809,4 +809,8 @@ footer {
     .pub-main h3 {
         font-size: 1.1rem;
     }
+}
+
+.sentient-logo-scaled {
+    transform: scale(0.8);  /* Adjust this value between 0 and 1 to control zoom level */
 } 
